@@ -13,7 +13,7 @@ Este repositório serve como base para aplicar na prática os conceitos abordado
 
 ## Tecnologias Utilizadas
 
-- [.NET 8](https://dotnet.microsoft.com/en-us/)
+- [.NET 9](https://dotnet.microsoft.com/en-us/)
 - [Entity Framework Core](https://learn.microsoft.com/ef/core/)
 - [PostgreSQL](https://www.postgresql.org/)
 
