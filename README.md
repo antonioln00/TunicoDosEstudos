@@ -28,7 +28,7 @@ Este repositório serve como base para aplicar na prática os conceitos abordado
   
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
