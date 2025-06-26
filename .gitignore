@@ -1,0 +1,71 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# DotNetSecrets
+secrets.json
+
+# EF Core Migrations snapshots (mantém os C#!)
+**/*.Designer.cs
+**/*.cache
+**/*ContextModelSnapshot.cs
+
+# ASP.NET
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+logs/
+LogFiles/
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish folder
+publish/
+*.dbmdl
+
+# Others
+*.ncrunch*
+*.ndj
+_ReSharper*/
+*.DotSettings.user
+
+# Backup files
+*.bak
+*.orig
+*.tmp
+*.swp
+*~
+
+# Package managers
+packages/
+.nuget/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Environment
+.env
+.env.*
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
