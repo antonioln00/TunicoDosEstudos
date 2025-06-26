@@ -1,0 +1,6 @@
+@TunicoDosEstudos_HostAddress = http://localhost:5258
+
+GET {{TunicoDosEstudos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
