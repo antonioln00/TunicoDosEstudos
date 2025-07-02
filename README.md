@@ -32,5 +32,5 @@ Este repositório serve como base para aplicar na prática os conceitos abordado
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/tonhao-dos-estudos.git
-   cd tonhao-dos-estudos
+   git clone https://github.com/seu-usuario/TunicoDosEstudos.git
+   cd TunicoDosEstudos
