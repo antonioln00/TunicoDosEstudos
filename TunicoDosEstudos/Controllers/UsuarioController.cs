@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using TunicoDosEstudos.Interface;
 using TunicoDosEstudos.Interface.Repositories;
 using TunicoDosEstudos.Models;
+using TunicoDosEstudos.Services;
 
 namespace TunicoDosEstudos.Controllers
 {
@@ -12,7 +13,7 @@ namespace TunicoDosEstudos.Controllers
     {
         private readonly IRepositoryUsuario _repositoryUsuario = repositoryUsuario;
 
-        [HttpGet("Usuario/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> ObterUsuarioPorId(Guid id)
         {
             try
@@ -34,6 +35,7 @@ namespace TunicoDosEstudos.Controllers
         {
             try
             {
+                usuario.Senha = SenhaHash.Hash(usuario.Senha);
                 await _repositoryUsuario.AddAsync(usuario);
                 bool saveChanges = await _repositoryUsuario.SaveChangesAsync();
 
